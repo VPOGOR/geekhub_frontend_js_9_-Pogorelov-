@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>My own page</title>
+</head>
+<body>
+	<h1 align="center">Формы</h1>
+
+	<h3>Расскажите немного о себе..</h3>
+
+<form>		
+
+ <fieldset>
+    <legend><b>Коротко о себе</b></legend>
+
+	<p>Имя: <input type="text" id="name"></p>
+	<p>Фамилия: <input type="text" id="surname"></p>
+
+	<p>Пол:
+           <input type="radio" checked="checked">Муж
+           <input type="radio">Жен</p>
+
+    <p>Возраст: <input type="text" id="age"> лет</p>
+
+ </fieldset>
+
+ <br>
+
+
+ <fieldset>
+
+   <legend><b>Подробнее о себе</b></legend>
+
+    <p><input name="guy" value="guy" type="radio" checked="checked">Молодой чебурек<br>
+    <input name="girl" value="girl" type="radio">Девушка</p>
+
+    <input name="bithdate" type="text">Дата рождения<br>
+    <input name="marital" type="text">Семейное положение<br>
+    <input name="status" type="text">Социальный статус<br>
+    <input name="residence" type="text">Местожительство
+
+   <p><b>Что вы обычно делаете на выходных:</b></p>
+
+   <input name="rest" value="sleep" type="checkbox">Сплю<br>
+   <input name="rest" value="friends" type="checkbox">Гуляю с друзьями<br>
+   <input name="rest" value="fish" type="checkbox">Хожу на рыбалку<br>
+   <input name="rest" value="games" type="checkbox">Играю в игры
+
+   <p><b>Какое ваше предпочтение в жанрах:</b></p>
+   
+   <select name="movie" size="1">
+   	<option disabled="disabled">Выберите жанр:</option>
+   	<option value="fun" >Комедия</option>
+   	<option value="fear">Ужасы</option>
+   	<option value="cry">Драма</option>
+   	<option value="pifpaf" selected>Боевик</option>
+   </select>
+
+   <p><b>Сколько книг вы прочитали за свою жизнь:</b></p>
+
+   <input name="books" value="<10" type="radio">0-10<br>
+   <input name="books" value="10-20" type="radio">10-20<br>
+   <input name="books" value="21-50" type="radio">21-50<br>
+   <input name="books" value="50>" type="radio">50+<br>
+
+   <p><b>Ваши коментарии:</b><br>
+   <textarea cols="80" rows="10" name="textarea"></textarea></p>
+
+   <select name="fruits" size="3">
+    <option value="banana">Banana</option>
+    <option value="mango">Mango</option>
+    <option value="cherry">Cherry</option>
+    <option value="apple">Apple</option>	
+   </select>
+
+ </fieldset>
+
+ <br>
+
+ <fieldset>
+  <legend><b>И в заключении</b></legend>
+    
+    <input type="text" name="justtext" placeholder="Что ты кушал на обед?"><br>
+
+    <p><b>Email:</b><br>
+     <input type="Email" name="Email"></p>
+
+    <p><b>Хотите подписаться на рассылку спама?</b><br>
+    	<i>Выберите категории</i></p>
+
+    	<input type="checkbox" name="spam" value="1">Кулинарные рецепты<br>
+    	<input type="checkbox" name="spam" value="2">Гламурный гламур<br>
+    	<input type="checkbox" name="spam" value="3">Как пить и не пьянеть<br>
+    
+    <p><b>На сколько сложная задача:</b></p>
+
+    	<input type="radio" name="complexity" checked="checked" value="low">Легкотня<br>
+    	<input type="radio" name="complexity" value="mid">Средненько<br>
+    	<input type="radio" name="complexity" value="hard">С трудом
+
+
+   
+
+
+ </fieldset>
+
+ <button></button>
+
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
